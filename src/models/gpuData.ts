@@ -6,7 +6,7 @@ const StadisticsSchema = new Schema({
     samples: String,
 });
 
-const CpuDataSchema = new Schema({
+const GpuDataSchema = new Schema({
     partNumber: String,
     brand: String,
     model: String,
@@ -14,6 +14,6 @@ const CpuDataSchema = new Schema({
     url: String
 });
 
-const CpuDataModel = model('cpuData', CpuDataSchema);
+const GpuDataModel = model('gpuData', GpuDataSchema);
 
-export default CpuDataModel
+export default GpuDataModel

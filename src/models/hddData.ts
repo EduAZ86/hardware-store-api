@@ -6,7 +6,7 @@ const StadisticsSchema = new Schema({
     samples: String,
 });
 
-const CpuDataSchema = new Schema({
+const HddDataSchema = new Schema({
     partNumber: String,
     brand: String,
     model: String,
@@ -14,6 +14,6 @@ const CpuDataSchema = new Schema({
     url: String
 });
 
-const CpuDataModel = model('cpuData', CpuDataSchema);
+const HddDataModel = model('hddData', HddDataSchema);
 
-export default CpuDataModel
+export default HddDataModel
