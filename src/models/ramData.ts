@@ -3,7 +3,7 @@ import { Schema, model } from 'mongoose';
 const StadisticsSchema = new Schema({
     rank: Number,
     benchmark: Number,
-    samples: String,
+    samples: Number,
 });
 
 const RamDataSchema = new Schema({

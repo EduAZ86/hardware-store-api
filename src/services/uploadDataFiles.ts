@@ -6,7 +6,6 @@ import SsdDataModel from "../models/ssdData";
 import HddDataModel from "../models/hddData";
 import RamDataModel from "../models/ramData";
 import UsbDataModel from "../models/usbData";
-import { error } from "console";
 
 export const uploadDataFiles = async (dataFiles: ILoadData[]) => {
     try {
@@ -47,6 +46,5 @@ export const uploadDataFiles = async (dataFiles: ILoadData[]) => {
 
     } catch (error: any) {
         console.log(error.message);
-
     }
 } 
